@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  background-color: transparent;
+  width: 40vw;
+  padding: 10px 10px;
+  margin: 10px 10px;
+
+  border: 0.5px gray solid;
+}
+.inputBox:focus {
+  outline: 0.7px gray solid !important;
+}
+
+.btn {
+  padding: 12px 30px;
+  border: 0px;
+  background-image: linear-gradient(62deg, #fccf31 0%, #f55555 100%);
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+}
